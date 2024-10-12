@@ -51,7 +51,7 @@ environment:
    - N8N_SECURE_COOKIE=false # 是否仅在HTTPS下可用，默认为true；https://docs.n8n.io/hosting/configuration/environment-variables/security/
    - N8N_PROTOCOL=http
    - N8N_HOST=你的域名
-   - N8N_PATH=/你的二级路径/ # 默认值为/，注意这里必须斜杠开头、斜杠结尾
+   - N8N_PATH=/你的二级路径/ # 默认值为/，注意这里如果想自定义，必须斜杠开头、斜杠结尾
 ```
 
 #### <span style="color:red">注意</span>
