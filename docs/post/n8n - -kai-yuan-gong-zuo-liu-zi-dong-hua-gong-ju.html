@@ -150,9 +150,9 @@ n8n内置了200+平台的各种操作节点，但基本都是国外平台，如�
    - <span class="pl-s">N8N_PROTOCOL=http</span>
    - <span class="pl-s">N8N_HOST=你的域名</span>
    - <span class="pl-s">N8N_PATH=/你的二级路径/ </span><span class="pl-c"><span class="pl-c">#</span> 默认值为/，注意这里如果想自定义，必须斜杠开头、斜杠结尾</span></pre></div>
-<h4><span>注意</span></h4>
-<p><span>1. 配置为主域名或者子域名，需要在你的dns上配置解析，并在本地配置好反向代理</span></p>
-<p><span>2. 配置为二级路径访问，需要在本地机器配置好反向代理</span></p>
+<h4>$\color{red}{注意事项}$</h4>
+<p>$\color{red}{1. 配置为主域名或者子域名，需要在你的dns上配置解析，并在本地配置好反向代理}$<br>
+$\color{red}{2. 配置为二级路径访问，需要在本地机器配置好反向代理}$</p>
 <h4>设置为二级路径访问后，nginx的配置示例</h4>
 <pre class="notranslate"><code class="notranslate">location ^~ /你的二级路径/ {
     proxy_pass http://127.0.0.1:5678/; 
@@ -344,6 +344,6 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 </script>
-<script src='https://blog.meekdai.com/Gmeek/plugins/articletoc.js'></script><script src='https://blog.meekdai.com/Gmeek/plugins/GmeekVercount.js'></script>
+<script src='https://blog.meekdai.com/Gmeek/plugins/articletoc.js'></script><script src='https://blog.meekdai.com/Gmeek/plugins/GmeekVercount.js'></script><script>MathJax = {tex: {inlineMath: [["$", "$"]]}};</script><script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 </html>
